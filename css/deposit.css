@@ -1,0 +1,62 @@
+body {
+    background-color: #f8fafc;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+header nav {
+    padding: 20px;
+}
+
+header nav a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main {
+    max-width: 450px;
+    margin: 60px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.03);
+}
+
+h2 {
+    color: #0f172a;
+    margin-bottom: 25px;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #475569;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    background-color: #10b981; /* Verde éxito para depósitos */
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #059669;
+}
